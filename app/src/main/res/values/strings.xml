@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Control de Acceso IoT</string>
+    <string name="label_ip">IP del panel (Arduino UNO R4 WiFi)</string>
+    <string name="hint_ip">Ej: 192.168.43.1</string>
+    <string name="ayuda_ip">Comparte tu internet (hotspot) y revisa qué IP le asignó al Arduino UNO R4 WiFi, o la IP que te muestre el router.</string>
+    <string name="btn_conectar">Conectar</string>
+    <string name="btn_desconectar">Desconectar</string>
+    <string name="btn_aprobar">Aprobar (a)</string>
+    <string name="btn_rechazar">Rechazar (r)</string>
+    <string name="estado_idle">Sin solicitudes pendientes</string>
+    <string name="estado_solicitud">Nueva solicitud de acceso</string>
+    <string name="estado_aprobado">Acceso concedido</string>
+    <string name="estado_rechazado">Acceso denegado</string>
+    <string name="estado_desconectado">Ingresa la IP y presiona Conectar</string>
+    <string name="chip_desconectado">Desconectado</string>
+    <string name="chip_conectado">Conectado</string>
+    <string name="chip_sin_senal">Sin señal del panel</string>
+
+    <!-- Login -->
+    <string name="titulo_iniciar_sesion">Iniciar Sesión</string>
+    <string name="label_usuario">Usuario:</string>
+    <string name="hint_usuario">Ingrese su usuario</string>
+    <string name="label_password">Contraseña:</string>
+    <string name="hint_password">Ingrese su contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="error_campos_vacios">Por favor ingresa usuario y contraseña</string>
+    <string name="error_credenciales_incorrectas">Usuario o contraseña incorrectos</string>
+    <string name="btn_cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Main -->
+    <string name="label_usuario_formato">Usuario: %s</string>
+    <string name="label_prueba_leds">Test conexión</string>
+    <string name="btn_cara_feliz">Cara Feliz</string>
+    <string name="btn_apagar_matrix">Apagar Matrix</string>
+    <string name="label_estado_panel">Estado del Panel:</string>
+    <string name="label_led_rechazado">Rechazado</string>
+    <string name="label_led_pendiente">Pendiente</string>
+    <string name="label_led_aprobado">Aprobado</string>
+    <string name="label_sqlite_titulo">Base de Datos Local (SQLite)</string>
+    <string name="label_conexiones_formato">Conexiones con Arduino: %d %s</string>
+    <string name="btn_ver_historial">Ver Historial (SQLite)</string>
+
+    <!-- Historial -->
+    <string name="titulo_historial">Historial de Registros (SQLite)</string>
+    <string name="cd_volver">Volver</string>
+    <string name="label_total_conexiones">Conexiones:</string>
+    <string name="label_total_acciones">Acciones:</string>
+    <string name="historial_vacio">No hay registros en la base de datos.</string>
+    <string name="label_por_usuario">Por: %s</string>
+</resources>
